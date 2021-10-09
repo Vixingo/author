@@ -597,6 +597,14 @@ hr {
 /*--------------------------------------------------------------
 5. Header
 ----------------------------------------------------------------*/
+.st-site-branding {
+    font-size: 35px;
+    color: #fdfeff;
+    font-weight: 600;
+}
+.st-site-branding span {
+    color: #fec544;
+}
 .st-site-header.st-style1 {
     background-color: rgba(7, 13, 27, 0.9);
     -webkit-box-shadow: 0 10px 10px -10px rgba(7, 13, 27, 0.1);
