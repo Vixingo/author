@@ -2959,3 +2959,53 @@ canvas {
     -ms-flex-align: center;
     align-items: center;
 }
+.ratting {
+    transition: all 0.4s ease;
+    margin-top: 20px;
+}
+.st-iconbox.st-style1:hover .ratting {
+    color: #fec544;
+}
+.box_collect_btn {
+    margin-top: 20px;
+}
+.box_collect_btn button {
+    background-color: transparent;
+    border: none;
+    color: #fec544;
+    border: 1px solid #fec544;
+    border-radius: 50px;
+    padding: 10px 1.5rem;
+    font-size: 16px;
+}
+.st-iconbox.st-style1:hover .box_collect_btn button {
+    background-color: #fec544;
+    color: #070d1b;
+    transition: all 0.4s ease;
+    -webkit-transform: translateY(-1px);
+    transform: translateY(-1px);
+    -webkit-box-shadow: 0px 5px 10px 0px #fec64450;
+    box-shadow: 0px 5px 10px 0px #fec64450;
+}
+.counter_tab {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.count {
+    display: flex;
+    align-items: center;
+}
+.count i {
+    font-size: 50px;
+    padding: 30px;
+    color: #070d1b;
+}
+.c_holder h2,
+.c_holder h3 {
+    color: #070d1b;
+}
+.counter {
+    background-color: #fec544;
+    padding: 30px 10px;
+}
